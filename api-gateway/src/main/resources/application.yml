@@ -1,0 +1,83 @@
+server:
+  port: ${GATEWAY_PORT:8081}
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      httpclient:
+        connect-timeout: 5000
+        response-timeout: 10s
+        pool:
+          type: ELASTIC
+          max-idle-time: 15s
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowed-origins:
+              - "${CORS_ALLOWED_ORIGINS:http://localhost:5173}"
+            allowed-methods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - PATCH
+              - OPTIONS
+            allowed-headers: "*"
+            allow-credentials: true
+            max-age: 3600
+      routes:
+        - id: notification-service
+          uri: ${NOTIFICATION_SERVICE_URL:http://peergeek-notification-test:8087}
+          predicates:
+            - Path=/api/v1/notifications/**
+        - id: wallet-service
+          uri: ${WALLET_SERVICE_URL:http://peergeek-wallet-payment-test:8088}
+          predicates:
+            - Path=/api/v1/wallet/**
+        - id: payment-service
+          uri: ${WALLET_SERVICE_URL:http://peergeek-wallet-payment-test:8088}
+          predicates:
+            - Path=/api/v1/payments/**
+        - id: community-service
+          uri: ${COMMUNITY_SERVICE_URL:http://peergeek-community-test:8089}
+          predicates:
+            - Path=/api/v1/community/**, /api/v1/domains/**, /api/v1/admin/community/**, /api/v1/direct-messages/**
+        - id: community-ws
+          uri: ${COMMUNITY_WS_URL:ws://peergeek-community-test:8089}
+          predicates:
+            - Path=/ws/**
+        - id: identity-service
+          uri: ${IDENTITY_SERVICE_URL:http://peergeek-identity-test:8091}
+          predicates:
+            - Path=/api/v1/auth/**, /api/v1/users/**, /api/v1/admin/users/**
+        - id: doubt-session-service
+          uri: ${DOUBT_SESSION_SERVICE_URL:http://peergeek-doubt-session-test:8092}
+          predicates:
+            - Path=/api/v1/doubt-sessions/**, /api/v1/instructor/doubt-sessions/**, /api/v1/instructor/courses/*/doubt-session-settings, /api/v1/public/courses/*/doubt-session-availability
+        - id: course-learning-service
+          uri: ${COURSE_LEARNING_SERVICE_URL:http://peergeek-course-learning-test:8090}
+          predicates:
+            - Path=/api/v1/categories/**, /api/v1/instructor/**, /api/v1/learning/**, /api/v1/certificates/**, /api/v1/admin/certificates/**, /api/v1/admin/courses/**, /api/v1/bookmarks/**, /api/v1/courses/**, /api/v1/public/courses/**, /api/v1/public/categories/**, /api/v1/admin/reports/**, /api/v1/admin/dashboard/**, /api/v1/admin/discovery/**
+        - id: referral-service
+          uri: ${REFERRAL_SERVICE_URL:http://peergeek-referral-test:8093}
+          predicates:
+            - Path=/api/v1/referrals/**
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,gateway
+  endpoint:
+    health:
+      show-details: always
+      probes:
+        enabled: true
+
+logging:
+  level:
+    root: INFO
+    com.peergeek.gateway: INFO
+    org.springframework.cloud.gateway: INFO

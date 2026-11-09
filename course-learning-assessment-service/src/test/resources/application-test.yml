@@ -1,0 +1,48 @@
+server:
+  port: 0
+
+spring:
+  application:
+    name: course-learning-assessment-service-test
+  datasource:
+    url: jdbc:h2:mem:learning_test;DB_CLOSE_DELAY=-1;MODE=MySQL
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+    hikari:
+      connection-init-sql: ""
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+  flyway:
+    enabled: false
+  kafka:
+    bootstrap-servers: localhost:9092
+
+peergeek:
+  auth:
+    jwt-secret: dev_jwt_secret_must_be_at_least_32_characters_long_for_hmac
+  gateway:
+    shared-secret: pg-internal-gateway-secret-2026
+  storage:
+    endpoint: ${STORAGE_ENDPOINT:http://host.docker.internal:9000}
+    public-endpoint: ${STORAGE_PUBLIC_ENDPOINT:http://localhost:9000}
+    region: us-east-1
+    access-key: ${STORAGE_ACCESS_KEY:minioadmin}
+    secret-key: ${STORAGE_SECRET_KEY:minioadmin}
+    bucket: ${STORAGE_BUCKET:peergeek}
+    path-style: true
+    create-bucket-if-missing: false
+  readiness:
+    video:
+      timeout: 5s
+    links:
+      max-concurrent: 5
+      cache-ttl: 1h
+      total-timeout: 5s
+  migration:
+    monolith-db: peergeek
+    auto-migrate-historical-data: false
+

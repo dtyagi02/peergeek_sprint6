@@ -1,0 +1,40 @@
+server:
+  port: 0
+
+spring:
+  application:
+    name: wallet-payment-service-test
+  datasource:
+    url: jdbc:h2:mem:wallettest;DB_CLOSE_DELAY=-1;MODE=MySQL
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+    hikari:
+      connection-init-sql: ""
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+  flyway:
+    enabled: false
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+razorpay:
+  key-id: rzp_test_mock_key_123
+  key-secret: rzp_test_mock_secret_456
+  webhook-secret: rzp_test_webhook_secret_789
+  enabled: true
+
+peergeek:
+  auth:
+    jwt-secret: test_jwt_secret_must_be_at_least_32_characters_long_for_hmac
+  gateway:
+    shared-secret: pg-internal-gateway-secret-2026
+  migration:
+    auto-migrate-historical-data: false
+

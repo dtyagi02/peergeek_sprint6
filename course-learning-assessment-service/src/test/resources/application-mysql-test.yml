@@ -1,0 +1,51 @@
+server:
+  port: 0
+
+spring:
+  application:
+    name: course-learning-assessment-service-mysql-test
+  datasource:
+    url: jdbc:mysql://${DB_HOST:host.docker.internal}:${DB_PORT:3306}/${MYSQL_DATABASE:peergeek_learning_test}?allowPublicKeyRetrieval=true&useSSL=false&connectionTimeZone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_PASSWORD:achintyaC%02}
+    hikari:
+      maximum-pool-size: 5
+      minimum-idle: 2
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    show-sql: false
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migration
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+
+peergeek:
+  auth:
+    jwt-secret: development-only-peergeek-jwt-secret-replace-before-production
+  gateway:
+    shared-secret: pg-internal-gateway-secret-2026
+  storage:
+    endpoint: http://minio:9000
+    public-endpoint: http://localhost:9000
+    region: us-east-1
+    access-key: minioadmin
+    secret-key: minioadmin
+    bucket: peergeek
+    path-style: true
+  readiness:
+    video:
+      timeout: 5s
+    links:
+      max-concurrent: 5
+      cache-ttl: 1h
+      total-timeout: 5s
+  migration:
+    monolith-db: peergeek
+    auto-migrate-historical-data: false
+

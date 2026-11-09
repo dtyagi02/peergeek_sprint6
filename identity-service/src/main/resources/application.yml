@@ -1,0 +1,90 @@
+server:
+  port: ${SERVER_PORT:8091}
+
+spring:
+  application:
+    name: identity-service
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${MYSQL_DATABASE:peergeek_identity}?createDatabaseIfNotExist=true&connectionTimeZone=UTC&forceConnectionTimeZoneToSession=true
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_PASSWORD:achintyaC%02}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 15
+      minimum-idle: 5
+      idle-timeout: 300000
+      connection-timeout: 20000
+      connection-init-sql: "SET time_zone = '+00:00'"
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+        jdbc:
+          time_zone: UTC
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migration
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      acks: all
+      retries: 3
+    consumer:
+      group-id: identity-service
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+  mail:
+    host: ${SPRING_MAIL_HOST:localhost}
+    port: ${SPRING_MAIL_PORT:1025}
+    properties:
+      mail:
+        smtp:
+          auth: false
+          starttls:
+            enable: false
+
+peergeek:
+  auth:
+    jwt-secret: ${PEERGEEK_AUTH_JWTSECRET:development-only-peergeek-jwt-secret-replace-before-production}
+    access-token-ttl-seconds: ${PEERGEEK_AUTH_ACCESS_TOKEN_TTL_SECONDS:900}
+    refresh-token-ttl-days: ${PEERGEEK_AUTH_REFRESH_TOKEN_TTL_DAYS:14}
+    reset-otp-ttl-minutes: ${PEERGEEK_AUTH_RESET_OTP_TTL_MINUTES:10}
+    reset-otp-cooldown-seconds: ${PEERGEEK_AUTH_RESET_OTP_COOLDOWN_SECONDS:60}
+    refresh-cookie-secure: ${PEERGEEK_AUTH_REFRESH_COOKIE_SECURE:false}
+  gateway:
+    shared-secret: ${PEERGEEK_GATEWAY_SHARED_SECRET:pg-internal-gateway-secret-2026}
+  storage:
+    endpoint: ${STORAGE_ENDPOINT:http://localhost:9000}
+    public-endpoint: ${STORAGE_PUBLIC_ENDPOINT:http://localhost:9000}
+    region: ${STORAGE_REGION:us-east-1}
+    access-key: ${STORAGE_ACCESS_KEY:minioadmin}
+    secret-key: ${STORAGE_SECRET_KEY:minioadmin}
+    bucket: ${STORAGE_BUCKET:peergeek}
+    path-style: ${STORAGE_PATH_STYLE:true}
+    create-bucket-if-missing: ${STORAGE_CREATE_BUCKET_IF_MISSING:true}
+  mail:
+    from: ${PEERGEEK_MAIL_FROM:no-reply@peergeek.local}
+  outbox:
+    relay-interval-ms: ${OUTBOX_RELAY_INTERVAL_MS:3000}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+      probes:
+        enabled: true
+

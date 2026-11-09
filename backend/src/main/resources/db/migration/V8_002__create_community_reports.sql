@@ -1,0 +1,20 @@
+CREATE TABLE community_reports (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    course_id BIGINT NOT NULL,
+    reporter_user_id BIGINT NOT NULL,
+    category ENUM('INCORRECT_OR_MISLEADING_INFORMATION', 'BROKEN_RESOURCE', 'INCOMPLETE_CONTENT', 'OFFENSIVE_OR_INAPPROPRIATE_CONTENT', 'COPYRIGHT_CONCERN', 'MISLEADING_DESCRIPTION', 'OTHER') NOT NULL,
+    details TEXT NOT NULL,
+    status ENUM('PENDING', 'IN_REVIEW', 'RESOLVED', 'DISMISSED') NOT NULL DEFAULT 'PENDING',
+    resolution_notes TEXT NULL,
+    resolved_by BIGINT NULL,
+    resolved_at TIMESTAMP(6) NULL,
+    created_at TIMESTAMP(6) NOT NULL,
+    updated_at TIMESTAMP(6) NOT NULL,
+    PRIMARY KEY (id),
+    CONSTRAINT fk_reports_course FOREIGN KEY (course_id) REFERENCES courses (id),
+    CONSTRAINT fk_reports_reporter FOREIGN KEY (reporter_user_id) REFERENCES users (id),
+    CONSTRAINT fk_reports_resolver FOREIGN KEY (resolved_by) REFERENCES users (id),
+    INDEX idx_reports_course_status (course_id, status),
+    INDEX idx_reports_reporter (reporter_user_id),
+    INDEX idx_reports_status (status)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

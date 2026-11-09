@@ -1,0 +1,87 @@
+server:
+  port: ${SERVER_PORT:8090}
+
+spring:
+  application:
+    name: course-learning-assessment-service
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${MYSQL_DATABASE:peergeek_learning}?createDatabaseIfNotExist=true&connectionTimeZone=UTC&forceConnectionTimeZoneToSession=true
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_PASSWORD:achintyaC%02}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 15
+      minimum-idle: 5
+      idle-timeout: 300000
+      connection-timeout: 20000
+      connection-init-sql: "SET time_zone = '+00:00'"
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+        jdbc:
+          time_zone: UTC
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migration
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      acks: all
+      retries: 3
+    consumer:
+      group-id: course-learning-assessment-service
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+      probes:
+        enabled: true
+
+peergeek:
+  auth:
+    jwt-secret: ${PEERGEEK_AUTH_JWTSECRET:dev_jwt_secret_must_be_at_least_32_characters_long_for_hmac}
+  gateway:
+    shared-secret: ${PEERGEEK_GATEWAY_SHARED_SECRET:pg-internal-gateway-secret-2026}
+  storage:
+    endpoint: ${STORAGE_ENDPOINT:http://localhost:9000}
+    public-endpoint: ${STORAGE_PUBLIC_ENDPOINT:http://localhost:9000}
+    region: ${STORAGE_REGION:us-east-1}
+    access-key: ${STORAGE_ACCESS_KEY:minioadmin}
+    secret-key: ${STORAGE_SECRET_KEY:minioadmin}
+    bucket: ${STORAGE_BUCKET:peergeek}
+    path-style: ${STORAGE_PATH_STYLE:true}
+    create-bucket-if-missing: ${STORAGE_CREATE_BUCKET_IF_MISSING:true}
+  readiness:
+    video:
+      timeout: 30s
+    links:
+      max-concurrent: 10
+      cache-ttl: 24h
+      total-timeout: 10s
+  migration:
+    monolith-db: ${PEERGEEK_MONOLITH_DB:peergeek}
+    auto-migrate-historical-data: ${AUTO_MIGRATE_LEARNING_DATA:true}
+
+logging:
+  level:
+    root: INFO
+    com.peergeek.courselearning: INFO
+

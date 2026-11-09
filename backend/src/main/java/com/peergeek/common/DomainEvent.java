@@ -1,0 +1,24 @@
+package com.peergeek.common;
+
+import java.time.Instant;
+import java.util.UUID;
+import org.springframework.context.ApplicationEvent;
+
+public abstract class DomainEvent extends ApplicationEvent {
+	private final UUID eventId;
+	private final Instant occurredAt;
+
+	protected DomainEvent(Object source) {
+		super(source);
+		this.eventId = UUID.randomUUID();
+		this.occurredAt = Instant.now();
+	}
+
+	public UUID getEventId() {
+		return eventId;
+	}
+
+	public Instant getOccurredAt() {
+		return occurredAt;
+	}
+}

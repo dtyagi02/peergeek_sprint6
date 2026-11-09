@@ -1,0 +1,91 @@
+﻿id,course_id,lesson_id,uploaded_by,purpose,type,title,original_filename,object_key,mime_type,size_bytes,checksum_sha256,status,processing_attempts,failure_reason,external_url,position,deleted_at,created_at,updated_at
+1,1,1,1,LESSON,LINK,Official documentation for Java Programming: From Basics to OOP,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+2,1,2,1,LESSON,LINK,Learning reference for Java Programming: From Basics to OOP,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+3,1,3,1,LESSON,LINK,Project guide for Java Programming: From Basics to OOP,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+4,2,16,2,LESSON,LINK,Official documentation for Advanced Java and Collections,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+5,2,17,2,LESSON,LINK,Learning reference for Advanced Java and Collections,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+6,2,18,2,LESSON,LINK,Project guide for Advanced Java and Collections,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+7,3,31,3,LESSON,LINK,Official documentation for Spring Boot REST API Fundamentals,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+8,3,32,3,LESSON,LINK,Learning reference for Spring Boot REST API Fundamentals,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+9,3,33,3,LESSON,LINK,Project guide for Spring Boot REST API Fundamentals,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+10,4,46,4,LESSON,LINK,Official documentation for Building Secure APIs with Spring Security,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+11,4,47,4,LESSON,LINK,Learning reference for Building Secure APIs with Spring Security,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+12,4,48,4,LESSON,LINK,Project guide for Building Secure APIs with Spring Security,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+13,5,61,5,LESSON,LINK,Official documentation for SQL Essentials with MySQL,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+14,5,62,5,LESSON,LINK,Learning reference for SQL Essentials with MySQL,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+15,5,63,5,LESSON,LINK,Project guide for SQL Essentials with MySQL,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+16,6,76,6,LESSON,LINK,Official documentation for Database Design and Query Optimization,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+17,6,77,6,LESSON,LINK,Learning reference for Database Design and Query Optimization,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+18,6,78,6,LESSON,LINK,Project guide for Database Design and Query Optimization,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+19,7,91,7,LESSON,LINK,Official documentation for HTML and CSS: Responsive Foundations,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+20,7,92,7,LESSON,LINK,Learning reference for HTML and CSS: Responsive Foundations,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+21,7,93,7,LESSON,LINK,Project guide for HTML and CSS: Responsive Foundations,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+22,8,106,8,LESSON,LINK,Official documentation for Modern JavaScript Essentials,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+23,8,107,8,LESSON,LINK,Learning reference for Modern JavaScript Essentials,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+24,8,108,8,LESSON,LINK,Project guide for Modern JavaScript Essentials,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+25,9,121,1,LESSON,LINK,Official documentation for React Components and State,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+26,9,122,1,LESSON,LINK,Learning reference for React Components and State,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+27,9,123,1,LESSON,LINK,Project guide for React Components and State,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+28,10,136,2,LESSON,LINK,Official documentation for Building Accessible Web Interfaces,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+29,10,137,2,LESSON,LINK,Learning reference for Building Accessible Web Interfaces,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+30,10,138,2,LESSON,LINK,Project guide for Building Accessible Web Interfaces,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+31,11,151,3,LESSON,LINK,Official documentation for Full-Stack Application Architecture,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+32,11,152,3,LESSON,LINK,Learning reference for Full-Stack Application Architecture,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+33,11,153,3,LESSON,LINK,Project guide for Full-Stack Application Architecture,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+34,12,166,4,LESSON,LINK,Official documentation for REST APIs with React Integration,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+35,12,167,4,LESSON,LINK,Learning reference for REST APIs with React Integration,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+36,12,168,4,LESSON,LINK,Project guide for REST APIs with React Integration,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+37,13,181,5,LESSON,LINK,Official documentation for Python for Data Analysis,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+38,13,182,5,LESSON,LINK,Learning reference for Python for Data Analysis,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+39,13,183,5,LESSON,LINK,Project guide for Python for Data Analysis,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+40,14,196,6,LESSON,LINK,Official documentation for Statistics for Data Science,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+41,14,197,6,LESSON,LINK,Learning reference for Statistics for Data Science,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+42,14,198,6,LESSON,LINK,Project guide for Statistics for Data Science,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+43,15,211,7,LESSON,LINK,Official documentation for Machine Learning Fundamentals,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+44,15,212,7,LESSON,LINK,Learning reference for Machine Learning Fundamentals,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+45,15,213,7,LESSON,LINK,Project guide for Machine Learning Fundamentals,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+46,16,226,8,LESSON,LINK,Official documentation for Data Visualization with Python,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+47,16,227,8,LESSON,LINK,Learning reference for Data Visualization with Python,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+48,16,228,8,LESSON,LINK,Project guide for Data Visualization with Python,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+49,17,241,1,LESSON,LINK,Official documentation for Exploratory Data Analysis Projects,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+50,17,242,1,LESSON,LINK,Learning reference for Exploratory Data Analysis Projects,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+51,17,243,1,LESSON,LINK,Project guide for Exploratory Data Analysis Projects,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+52,18,256,2,LESSON,LINK,Official documentation for Practical SQL for Analytics,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+53,18,257,2,LESSON,LINK,Learning reference for Practical SQL for Analytics,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+54,18,258,2,LESSON,LINK,Project guide for Practical SQL for Analytics,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+55,19,271,3,LESSON,LINK,Official documentation for UI/UX Research and Discovery,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+56,19,272,3,LESSON,LINK,Learning reference for UI/UX Research and Discovery,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+57,19,273,3,LESSON,LINK,Project guide for UI/UX Research and Discovery,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+58,20,286,4,LESSON,LINK,Official documentation for Design Systems in Practice,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+59,20,287,4,LESSON,LINK,Learning reference for Design Systems in Practice,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+60,20,288,4,LESSON,LINK,Project guide for Design Systems in Practice,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+61,21,301,5,LESSON,LINK,Official documentation for Wireframing and Prototyping,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+62,21,302,5,LESSON,LINK,Learning reference for Wireframing and Prototyping,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+63,21,303,5,LESSON,LINK,Project guide for Wireframing and Prototyping,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+64,22,316,6,LESSON,LINK,Official documentation for Usability Testing Workshop,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+65,22,317,6,LESSON,LINK,Learning reference for Usability Testing Workshop,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+66,22,318,6,LESSON,LINK,Project guide for Usability Testing Workshop,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+67,23,331,7,LESSON,LINK,Official documentation for Product Thinking for Developers,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+68,23,332,7,LESSON,LINK,Learning reference for Product Thinking for Developers,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+69,23,333,7,LESSON,LINK,Project guide for Product Thinking for Developers,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+70,24,346,8,LESSON,LINK,Official documentation for Agile Project Delivery Basics,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+71,24,347,8,LESSON,LINK,Learning reference for Agile Project Delivery Basics,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+72,24,348,8,LESSON,LINK,Project guide for Agile Project Delivery Basics,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+73,25,361,1,LESSON,LINK,Official documentation for Discrete Mathematics for Computing,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+74,25,362,1,LESSON,LINK,Learning reference for Discrete Mathematics for Computing,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+75,25,363,1,LESSON,LINK,Project guide for Discrete Mathematics for Computing,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+76,26,376,2,LESSON,LINK,Official documentation for Problem Solving with Algorithms,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+77,26,377,2,LESSON,LINK,Learning reference for Problem Solving with Algorithms,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+78,26,378,2,LESSON,LINK,Project guide for Problem Solving with Algorithms,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+79,27,391,3,LESSON,LINK,Official documentation for Cloud Computing Foundations,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+80,27,392,3,LESSON,LINK,Learning reference for Cloud Computing Foundations,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+81,27,393,3,LESSON,LINK,Project guide for Cloud Computing Foundations,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+82,28,406,4,LESSON,LINK,Official documentation for Docker and Container Workflows,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+83,28,407,4,LESSON,LINK,Learning reference for Docker and Container Workflows,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+84,28,408,4,LESSON,LINK,Project guide for Docker and Container Workflows,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+85,29,421,5,LESSON,LINK,Official documentation for CI/CD Fundamentals,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+86,29,422,5,LESSON,LINK,Learning reference for CI/CD Fundamentals,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+87,29,423,5,LESSON,LINK,Project guide for CI/CD Fundamentals,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+88,30,436,6,LESSON,LINK,Official documentation for Git and Collaborative Development,,,text/html,,,READY,0,,https://docs.oracle.com/javase/tutorial/,1,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+89,30,437,6,LESSON,LINK,Learning reference for Git and Collaborative Development,,,text/html,,,READY,0,,https://developer.mozilla.org/en-US/docs/Learn,2,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+90,30,438,6,LESSON,LINK,Project guide for Git and Collaborative Development,,,text/html,,,READY,0,,https://spring.io/guides,3,,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000

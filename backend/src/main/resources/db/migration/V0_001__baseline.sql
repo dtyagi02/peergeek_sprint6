@@ -1,0 +1,1 @@
+-- Phase 0 establishes Flyway ownership. Domain migrations belong to later phases.

@@ -1,0 +1,22 @@
+CREATE TABLE courses (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    owner_id BIGINT NOT NULL,
+    title VARCHAR(120) NOT NULL,
+    description TEXT NULL,
+    category_id BIGINT NULL,
+    difficulty ENUM('BEGINNER', 'INTERMEDIATE', 'ADVANCED') NULL,
+    status ENUM('DRAFT', 'PUBLISHED', 'UNPUBLISHED') NOT NULL DEFAULT 'DRAFT',
+    thumbnail_resource_id BIGINT NULL,
+    published_at TIMESTAMP(6) NULL,
+    content_updated_at TIMESTAMP(6) NOT NULL,
+    deleted_at TIMESTAMP(6) NULL,
+    version BIGINT NOT NULL DEFAULT 0,
+    created_at TIMESTAMP(6) NOT NULL,
+    updated_at TIMESTAMP(6) NOT NULL,
+    PRIMARY KEY (id),
+    CONSTRAINT fk_courses_owner FOREIGN KEY (owner_id) REFERENCES users (id),
+    CONSTRAINT fk_courses_category FOREIGN KEY (category_id) REFERENCES categories (id),
+    INDEX idx_courses_owner_deleted_updated (owner_id, deleted_at, updated_at),
+    INDEX idx_courses_status (status),
+    INDEX idx_courses_category (category_id)
+);

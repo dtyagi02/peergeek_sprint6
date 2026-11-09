@@ -1,0 +1,151 @@
+﻿id,course_id,title,description,position,created_at,updated_at
+1,1,Foundations: Java Programming,Module 1 of Java Programming: From Basics to OOP.,1,2026-09-22 12:00:00.000000,2026-10-20 12:00:00.000000
+2,1,Core concepts: Java Programming,Module 2 of Java Programming: From Basics to OOP.,2,2026-09-22 12:00:00.000000,2026-10-20 12:00:00.000000
+3,1,Guided practice: Java Programming,Module 3 of Java Programming: From Basics to OOP.,3,2026-09-22 12:00:00.000000,2026-10-20 12:00:00.000000
+4,1,Applied project: Java Programming,Module 4 of Java Programming: From Basics to OOP.,4,2026-09-22 12:00:00.000000,2026-10-20 12:00:00.000000
+5,1,Review and next steps: Java Programming,Module 5 of Java Programming: From Basics to OOP.,5,2026-09-22 12:00:00.000000,2026-10-20 12:00:00.000000
+6,2,Foundations: Advanced Java and Collections,Module 1 of Advanced Java and Collections.,1,2026-09-23 12:00:00.000000,2026-10-20 12:00:00.000000
+7,2,Core concepts: Advanced Java and Collections,Module 2 of Advanced Java and Collections.,2,2026-09-23 12:00:00.000000,2026-10-20 12:00:00.000000
+8,2,Guided practice: Advanced Java and Collections,Module 3 of Advanced Java and Collections.,3,2026-09-23 12:00:00.000000,2026-10-20 12:00:00.000000
+9,2,Applied project: Advanced Java and Collections,Module 4 of Advanced Java and Collections.,4,2026-09-23 12:00:00.000000,2026-10-20 12:00:00.000000
+10,2,Review and next steps: Advanced Java and Collections,Module 5 of Advanced Java and Collections.,5,2026-09-23 12:00:00.000000,2026-10-20 12:00:00.000000
+11,3,Foundations: Spring Boot REST API Fundamentals,Module 1 of Spring Boot REST API Fundamentals.,1,2026-09-24 12:00:00.000000,2026-10-20 12:00:00.000000
+12,3,Core concepts: Spring Boot REST API Fundamentals,Module 2 of Spring Boot REST API Fundamentals.,2,2026-09-24 12:00:00.000000,2026-10-20 12:00:00.000000
+13,3,Guided practice: Spring Boot REST API Fundamentals,Module 3 of Spring Boot REST API Fundamentals.,3,2026-09-24 12:00:00.000000,2026-10-20 12:00:00.000000
+14,3,Applied project: Spring Boot REST API Fundamentals,Module 4 of Spring Boot REST API Fundamentals.,4,2026-09-24 12:00:00.000000,2026-10-20 12:00:00.000000
+15,3,Review and next steps: Spring Boot REST API Fundamentals,Module 5 of Spring Boot REST API Fundamentals.,5,2026-09-24 12:00:00.000000,2026-10-20 12:00:00.000000
+16,4,Foundations: Building Secure APIs with Spring Security,Module 1 of Building Secure APIs with Spring Security.,1,2026-09-25 12:00:00.000000,2026-10-20 12:00:00.000000
+17,4,Core concepts: Building Secure APIs with Spring Security,Module 2 of Building Secure APIs with Spring Security.,2,2026-09-25 12:00:00.000000,2026-10-20 12:00:00.000000
+18,4,Guided practice: Building Secure APIs with Spring Security,Module 3 of Building Secure APIs with Spring Security.,3,2026-09-25 12:00:00.000000,2026-10-20 12:00:00.000000
+19,4,Applied project: Building Secure APIs with Spring Security,Module 4 of Building Secure APIs with Spring Security.,4,2026-09-25 12:00:00.000000,2026-10-20 12:00:00.000000
+20,4,Review and next steps: Building Secure APIs with Spring Security,Module 5 of Building Secure APIs with Spring Security.,5,2026-09-25 12:00:00.000000,2026-10-20 12:00:00.000000
+21,5,Foundations: SQL Essentials with MySQL,Module 1 of SQL Essentials with MySQL.,1,2026-09-26 12:00:00.000000,2026-10-20 12:00:00.000000
+22,5,Core concepts: SQL Essentials with MySQL,Module 2 of SQL Essentials with MySQL.,2,2026-09-26 12:00:00.000000,2026-10-20 12:00:00.000000
+23,5,Guided practice: SQL Essentials with MySQL,Module 3 of SQL Essentials with MySQL.,3,2026-09-26 12:00:00.000000,2026-10-20 12:00:00.000000
+24,5,Applied project: SQL Essentials with MySQL,Module 4 of SQL Essentials with MySQL.,4,2026-09-26 12:00:00.000000,2026-10-20 12:00:00.000000
+25,5,Review and next steps: SQL Essentials with MySQL,Module 5 of SQL Essentials with MySQL.,5,2026-09-26 12:00:00.000000,2026-10-20 12:00:00.000000
+26,6,Foundations: Database Design and Query Optimization,Module 1 of Database Design and Query Optimization.,1,2026-09-27 12:00:00.000000,2026-10-20 12:00:00.000000
+27,6,Core concepts: Database Design and Query Optimization,Module 2 of Database Design and Query Optimization.,2,2026-09-27 12:00:00.000000,2026-10-20 12:00:00.000000
+28,6,Guided practice: Database Design and Query Optimization,Module 3 of Database Design and Query Optimization.,3,2026-09-27 12:00:00.000000,2026-10-20 12:00:00.000000
+29,6,Applied project: Database Design and Query Optimization,Module 4 of Database Design and Query Optimization.,4,2026-09-27 12:00:00.000000,2026-10-20 12:00:00.000000
+30,6,Review and next steps: Database Design and Query Optimization,Module 5 of Database Design and Query Optimization.,5,2026-09-27 12:00:00.000000,2026-10-20 12:00:00.000000
+31,7,Foundations: HTML and CSS,Module 1 of HTML and CSS: Responsive Foundations.,1,2026-09-28 12:00:00.000000,2026-10-20 12:00:00.000000
+32,7,Core concepts: HTML and CSS,Module 2 of HTML and CSS: Responsive Foundations.,2,2026-09-28 12:00:00.000000,2026-10-20 12:00:00.000000
+33,7,Guided practice: HTML and CSS,Module 3 of HTML and CSS: Responsive Foundations.,3,2026-09-28 12:00:00.000000,2026-10-20 12:00:00.000000
+34,7,Applied project: HTML and CSS,Module 4 of HTML and CSS: Responsive Foundations.,4,2026-09-28 12:00:00.000000,2026-10-20 12:00:00.000000
+35,7,Review and next steps: HTML and CSS,Module 5 of HTML and CSS: Responsive Foundations.,5,2026-09-28 12:00:00.000000,2026-10-20 12:00:00.000000
+36,8,Foundations: Modern JavaScript Essentials,Module 1 of Modern JavaScript Essentials.,1,2026-09-29 12:00:00.000000,2026-10-20 12:00:00.000000
+37,8,Core concepts: Modern JavaScript Essentials,Module 2 of Modern JavaScript Essentials.,2,2026-09-29 12:00:00.000000,2026-10-20 12:00:00.000000
+38,8,Guided practice: Modern JavaScript Essentials,Module 3 of Modern JavaScript Essentials.,3,2026-09-29 12:00:00.000000,2026-10-20 12:00:00.000000
+39,8,Applied project: Modern JavaScript Essentials,Module 4 of Modern JavaScript Essentials.,4,2026-09-29 12:00:00.000000,2026-10-20 12:00:00.000000
+40,8,Review and next steps: Modern JavaScript Essentials,Module 5 of Modern JavaScript Essentials.,5,2026-09-29 12:00:00.000000,2026-10-20 12:00:00.000000
+41,9,Foundations: React Components and State,Module 1 of React Components and State.,1,2026-09-30 12:00:00.000000,2026-10-20 12:00:00.000000
+42,9,Core concepts: React Components and State,Module 2 of React Components and State.,2,2026-09-30 12:00:00.000000,2026-10-20 12:00:00.000000
+43,9,Guided practice: React Components and State,Module 3 of React Components and State.,3,2026-09-30 12:00:00.000000,2026-10-20 12:00:00.000000
+44,9,Applied project: React Components and State,Module 4 of React Components and State.,4,2026-09-30 12:00:00.000000,2026-10-20 12:00:00.000000
+45,9,Review and next steps: React Components and State,Module 5 of React Components and State.,5,2026-09-30 12:00:00.000000,2026-10-20 12:00:00.000000
+46,10,Foundations: Building Accessible Web Interfaces,Module 1 of Building Accessible Web Interfaces.,1,2026-10-01 12:00:00.000000,2026-10-20 12:00:00.000000
+47,10,Core concepts: Building Accessible Web Interfaces,Module 2 of Building Accessible Web Interfaces.,2,2026-10-01 12:00:00.000000,2026-10-20 12:00:00.000000
+48,10,Guided practice: Building Accessible Web Interfaces,Module 3 of Building Accessible Web Interfaces.,3,2026-10-01 12:00:00.000000,2026-10-20 12:00:00.000000
+49,10,Applied project: Building Accessible Web Interfaces,Module 4 of Building Accessible Web Interfaces.,4,2026-10-01 12:00:00.000000,2026-10-20 12:00:00.000000
+50,10,Review and next steps: Building Accessible Web Interfaces,Module 5 of Building Accessible Web Interfaces.,5,2026-10-01 12:00:00.000000,2026-10-20 12:00:00.000000
+51,11,Foundations: Full-Stack Application Architecture,Module 1 of Full-Stack Application Architecture.,1,2026-10-02 12:00:00.000000,2026-10-20 12:00:00.000000
+52,11,Core concepts: Full-Stack Application Architecture,Module 2 of Full-Stack Application Architecture.,2,2026-10-02 12:00:00.000000,2026-10-20 12:00:00.000000
+53,11,Guided practice: Full-Stack Application Architecture,Module 3 of Full-Stack Application Architecture.,3,2026-10-02 12:00:00.000000,2026-10-20 12:00:00.000000
+54,11,Applied project: Full-Stack Application Architecture,Module 4 of Full-Stack Application Architecture.,4,2026-10-02 12:00:00.000000,2026-10-20 12:00:00.000000
+55,11,Review and next steps: Full-Stack Application Architecture,Module 5 of Full-Stack Application Architecture.,5,2026-10-02 12:00:00.000000,2026-10-20 12:00:00.000000
+56,12,Foundations: REST APIs with React Integration,Module 1 of REST APIs with React Integration.,1,2026-10-03 12:00:00.000000,2026-10-20 12:00:00.000000
+57,12,Core concepts: REST APIs with React Integration,Module 2 of REST APIs with React Integration.,2,2026-10-03 12:00:00.000000,2026-10-20 12:00:00.000000
+58,12,Guided practice: REST APIs with React Integration,Module 3 of REST APIs with React Integration.,3,2026-10-03 12:00:00.000000,2026-10-20 12:00:00.000000
+59,12,Applied project: REST APIs with React Integration,Module 4 of REST APIs with React Integration.,4,2026-10-03 12:00:00.000000,2026-10-20 12:00:00.000000
+60,12,Review and next steps: REST APIs with React Integration,Module 5 of REST APIs with React Integration.,5,2026-10-03 12:00:00.000000,2026-10-20 12:00:00.000000
+61,13,Foundations: Python for Data Analysis,Module 1 of Python for Data Analysis.,1,2026-10-04 12:00:00.000000,2026-10-20 12:00:00.000000
+62,13,Core concepts: Python for Data Analysis,Module 2 of Python for Data Analysis.,2,2026-10-04 12:00:00.000000,2026-10-20 12:00:00.000000
+63,13,Guided practice: Python for Data Analysis,Module 3 of Python for Data Analysis.,3,2026-10-04 12:00:00.000000,2026-10-20 12:00:00.000000
+64,13,Applied project: Python for Data Analysis,Module 4 of Python for Data Analysis.,4,2026-10-04 12:00:00.000000,2026-10-20 12:00:00.000000
+65,13,Review and next steps: Python for Data Analysis,Module 5 of Python for Data Analysis.,5,2026-10-04 12:00:00.000000,2026-10-20 12:00:00.000000
+66,14,Foundations: Statistics for Data Science,Module 1 of Statistics for Data Science.,1,2026-10-05 12:00:00.000000,2026-10-20 12:00:00.000000
+67,14,Core concepts: Statistics for Data Science,Module 2 of Statistics for Data Science.,2,2026-10-05 12:00:00.000000,2026-10-20 12:00:00.000000
+68,14,Guided practice: Statistics for Data Science,Module 3 of Statistics for Data Science.,3,2026-10-05 12:00:00.000000,2026-10-20 12:00:00.000000
+69,14,Applied project: Statistics for Data Science,Module 4 of Statistics for Data Science.,4,2026-10-05 12:00:00.000000,2026-10-20 12:00:00.000000
+70,14,Review and next steps: Statistics for Data Science,Module 5 of Statistics for Data Science.,5,2026-10-05 12:00:00.000000,2026-10-20 12:00:00.000000
+71,15,Foundations: Machine Learning Fundamentals,Module 1 of Machine Learning Fundamentals.,1,2026-10-06 12:00:00.000000,2026-10-20 12:00:00.000000
+72,15,Core concepts: Machine Learning Fundamentals,Module 2 of Machine Learning Fundamentals.,2,2026-10-06 12:00:00.000000,2026-10-20 12:00:00.000000
+73,15,Guided practice: Machine Learning Fundamentals,Module 3 of Machine Learning Fundamentals.,3,2026-10-06 12:00:00.000000,2026-10-20 12:00:00.000000
+74,15,Applied project: Machine Learning Fundamentals,Module 4 of Machine Learning Fundamentals.,4,2026-10-06 12:00:00.000000,2026-10-20 12:00:00.000000
+75,15,Review and next steps: Machine Learning Fundamentals,Module 5 of Machine Learning Fundamentals.,5,2026-10-06 12:00:00.000000,2026-10-20 12:00:00.000000
+76,16,Foundations: Data Visualization with Python,Module 1 of Data Visualization with Python.,1,2026-10-07 12:00:00.000000,2026-10-20 12:00:00.000000
+77,16,Core concepts: Data Visualization with Python,Module 2 of Data Visualization with Python.,2,2026-10-07 12:00:00.000000,2026-10-20 12:00:00.000000
+78,16,Guided practice: Data Visualization with Python,Module 3 of Data Visualization with Python.,3,2026-10-07 12:00:00.000000,2026-10-20 12:00:00.000000
+79,16,Applied project: Data Visualization with Python,Module 4 of Data Visualization with Python.,4,2026-10-07 12:00:00.000000,2026-10-20 12:00:00.000000
+80,16,Review and next steps: Data Visualization with Python,Module 5 of Data Visualization with Python.,5,2026-10-07 12:00:00.000000,2026-10-20 12:00:00.000000
+81,17,Foundations: Exploratory Data Analysis Projects,Module 1 of Exploratory Data Analysis Projects.,1,2026-10-08 12:00:00.000000,2026-10-20 12:00:00.000000
+82,17,Core concepts: Exploratory Data Analysis Projects,Module 2 of Exploratory Data Analysis Projects.,2,2026-10-08 12:00:00.000000,2026-10-20 12:00:00.000000
+83,17,Guided practice: Exploratory Data Analysis Projects,Module 3 of Exploratory Data Analysis Projects.,3,2026-10-08 12:00:00.000000,2026-10-20 12:00:00.000000
+84,17,Applied project: Exploratory Data Analysis Projects,Module 4 of Exploratory Data Analysis Projects.,4,2026-10-08 12:00:00.000000,2026-10-20 12:00:00.000000
+85,17,Review and next steps: Exploratory Data Analysis Projects,Module 5 of Exploratory Data Analysis Projects.,5,2026-10-08 12:00:00.000000,2026-10-20 12:00:00.000000
+86,18,Foundations: Practical SQL for Analytics,Module 1 of Practical SQL for Analytics.,1,2026-10-09 12:00:00.000000,2026-10-20 12:00:00.000000
+87,18,Core concepts: Practical SQL for Analytics,Module 2 of Practical SQL for Analytics.,2,2026-10-09 12:00:00.000000,2026-10-20 12:00:00.000000
+88,18,Guided practice: Practical SQL for Analytics,Module 3 of Practical SQL for Analytics.,3,2026-10-09 12:00:00.000000,2026-10-20 12:00:00.000000
+89,18,Applied project: Practical SQL for Analytics,Module 4 of Practical SQL for Analytics.,4,2026-10-09 12:00:00.000000,2026-10-20 12:00:00.000000
+90,18,Review and next steps: Practical SQL for Analytics,Module 5 of Practical SQL for Analytics.,5,2026-10-09 12:00:00.000000,2026-10-20 12:00:00.000000
+91,19,Foundations: UI/UX Research and Discovery,Module 1 of UI/UX Research and Discovery.,1,2026-10-10 12:00:00.000000,2026-10-20 12:00:00.000000
+92,19,Core concepts: UI/UX Research and Discovery,Module 2 of UI/UX Research and Discovery.,2,2026-10-10 12:00:00.000000,2026-10-20 12:00:00.000000
+93,19,Guided practice: UI/UX Research and Discovery,Module 3 of UI/UX Research and Discovery.,3,2026-10-10 12:00:00.000000,2026-10-20 12:00:00.000000
+94,19,Applied project: UI/UX Research and Discovery,Module 4 of UI/UX Research and Discovery.,4,2026-10-10 12:00:00.000000,2026-10-20 12:00:00.000000
+95,19,Review and next steps: UI/UX Research and Discovery,Module 5 of UI/UX Research and Discovery.,5,2026-10-10 12:00:00.000000,2026-10-20 12:00:00.000000
+96,20,Foundations: Design Systems in Practice,Module 1 of Design Systems in Practice.,1,2026-10-11 12:00:00.000000,2026-10-20 12:00:00.000000
+97,20,Core concepts: Design Systems in Practice,Module 2 of Design Systems in Practice.,2,2026-10-11 12:00:00.000000,2026-10-20 12:00:00.000000
+98,20,Guided practice: Design Systems in Practice,Module 3 of Design Systems in Practice.,3,2026-10-11 12:00:00.000000,2026-10-20 12:00:00.000000
+99,20,Applied project: Design Systems in Practice,Module 4 of Design Systems in Practice.,4,2026-10-11 12:00:00.000000,2026-10-20 12:00:00.000000
+100,20,Review and next steps: Design Systems in Practice,Module 5 of Design Systems in Practice.,5,2026-10-11 12:00:00.000000,2026-10-20 12:00:00.000000
+101,21,Foundations: Wireframing and Prototyping,Module 1 of Wireframing and Prototyping.,1,2026-10-12 12:00:00.000000,2026-10-20 12:00:00.000000
+102,21,Core concepts: Wireframing and Prototyping,Module 2 of Wireframing and Prototyping.,2,2026-10-12 12:00:00.000000,2026-10-20 12:00:00.000000
+103,21,Guided practice: Wireframing and Prototyping,Module 3 of Wireframing and Prototyping.,3,2026-10-12 12:00:00.000000,2026-10-20 12:00:00.000000
+104,21,Applied project: Wireframing and Prototyping,Module 4 of Wireframing and Prototyping.,4,2026-10-12 12:00:00.000000,2026-10-20 12:00:00.000000
+105,21,Review and next steps: Wireframing and Prototyping,Module 5 of Wireframing and Prototyping.,5,2026-10-12 12:00:00.000000,2026-10-20 12:00:00.000000
+106,22,Foundations: Usability Testing Workshop,Module 1 of Usability Testing Workshop.,1,2026-10-13 12:00:00.000000,2026-10-20 12:00:00.000000
+107,22,Core concepts: Usability Testing Workshop,Module 2 of Usability Testing Workshop.,2,2026-10-13 12:00:00.000000,2026-10-20 12:00:00.000000
+108,22,Guided practice: Usability Testing Workshop,Module 3 of Usability Testing Workshop.,3,2026-10-13 12:00:00.000000,2026-10-20 12:00:00.000000
+109,22,Applied project: Usability Testing Workshop,Module 4 of Usability Testing Workshop.,4,2026-10-13 12:00:00.000000,2026-10-20 12:00:00.000000
+110,22,Review and next steps: Usability Testing Workshop,Module 5 of Usability Testing Workshop.,5,2026-10-13 12:00:00.000000,2026-10-20 12:00:00.000000
+111,23,Foundations: Product Thinking for Developers,Module 1 of Product Thinking for Developers.,1,2026-10-14 12:00:00.000000,2026-10-20 12:00:00.000000
+112,23,Core concepts: Product Thinking for Developers,Module 2 of Product Thinking for Developers.,2,2026-10-14 12:00:00.000000,2026-10-20 12:00:00.000000
+113,23,Guided practice: Product Thinking for Developers,Module 3 of Product Thinking for Developers.,3,2026-10-14 12:00:00.000000,2026-10-20 12:00:00.000000
+114,23,Applied project: Product Thinking for Developers,Module 4 of Product Thinking for Developers.,4,2026-10-14 12:00:00.000000,2026-10-20 12:00:00.000000
+115,23,Review and next steps: Product Thinking for Developers,Module 5 of Product Thinking for Developers.,5,2026-10-14 12:00:00.000000,2026-10-20 12:00:00.000000
+116,24,Foundations: Agile Project Delivery Basics,Module 1 of Agile Project Delivery Basics.,1,2026-10-15 12:00:00.000000,2026-10-20 12:00:00.000000
+117,24,Core concepts: Agile Project Delivery Basics,Module 2 of Agile Project Delivery Basics.,2,2026-10-15 12:00:00.000000,2026-10-20 12:00:00.000000
+118,24,Guided practice: Agile Project Delivery Basics,Module 3 of Agile Project Delivery Basics.,3,2026-10-15 12:00:00.000000,2026-10-20 12:00:00.000000
+119,24,Applied project: Agile Project Delivery Basics,Module 4 of Agile Project Delivery Basics.,4,2026-10-15 12:00:00.000000,2026-10-20 12:00:00.000000
+120,24,Review and next steps: Agile Project Delivery Basics,Module 5 of Agile Project Delivery Basics.,5,2026-10-15 12:00:00.000000,2026-10-20 12:00:00.000000
+121,25,Foundations: Discrete Mathematics for Computing,Module 1 of Discrete Mathematics for Computing.,1,2026-10-16 12:00:00.000000,2026-10-20 12:00:00.000000
+122,25,Core concepts: Discrete Mathematics for Computing,Module 2 of Discrete Mathematics for Computing.,2,2026-10-16 12:00:00.000000,2026-10-20 12:00:00.000000
+123,25,Guided practice: Discrete Mathematics for Computing,Module 3 of Discrete Mathematics for Computing.,3,2026-10-16 12:00:00.000000,2026-10-20 12:00:00.000000
+124,25,Applied project: Discrete Mathematics for Computing,Module 4 of Discrete Mathematics for Computing.,4,2026-10-16 12:00:00.000000,2026-10-20 12:00:00.000000
+125,25,Review and next steps: Discrete Mathematics for Computing,Module 5 of Discrete Mathematics for Computing.,5,2026-10-16 12:00:00.000000,2026-10-20 12:00:00.000000
+126,26,Foundations: Problem Solving with Algorithms,Module 1 of Problem Solving with Algorithms.,1,2026-10-17 12:00:00.000000,2026-10-20 12:00:00.000000
+127,26,Core concepts: Problem Solving with Algorithms,Module 2 of Problem Solving with Algorithms.,2,2026-10-17 12:00:00.000000,2026-10-20 12:00:00.000000
+128,26,Guided practice: Problem Solving with Algorithms,Module 3 of Problem Solving with Algorithms.,3,2026-10-17 12:00:00.000000,2026-10-20 12:00:00.000000
+129,26,Applied project: Problem Solving with Algorithms,Module 4 of Problem Solving with Algorithms.,4,2026-10-17 12:00:00.000000,2026-10-20 12:00:00.000000
+130,26,Review and next steps: Problem Solving with Algorithms,Module 5 of Problem Solving with Algorithms.,5,2026-10-17 12:00:00.000000,2026-10-20 12:00:00.000000
+131,27,Foundations: Cloud Computing Foundations,Module 1 of Cloud Computing Foundations.,1,2026-10-18 12:00:00.000000,2026-10-20 12:00:00.000000
+132,27,Core concepts: Cloud Computing Foundations,Module 2 of Cloud Computing Foundations.,2,2026-10-18 12:00:00.000000,2026-10-20 12:00:00.000000
+133,27,Guided practice: Cloud Computing Foundations,Module 3 of Cloud Computing Foundations.,3,2026-10-18 12:00:00.000000,2026-10-20 12:00:00.000000
+134,27,Applied project: Cloud Computing Foundations,Module 4 of Cloud Computing Foundations.,4,2026-10-18 12:00:00.000000,2026-10-20 12:00:00.000000
+135,27,Review and next steps: Cloud Computing Foundations,Module 5 of Cloud Computing Foundations.,5,2026-10-18 12:00:00.000000,2026-10-20 12:00:00.000000
+136,28,Foundations: Docker and Container Workflows,Module 1 of Docker and Container Workflows.,1,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+137,28,Core concepts: Docker and Container Workflows,Module 2 of Docker and Container Workflows.,2,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+138,28,Guided practice: Docker and Container Workflows,Module 3 of Docker and Container Workflows.,3,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+139,28,Applied project: Docker and Container Workflows,Module 4 of Docker and Container Workflows.,4,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+140,28,Review and next steps: Docker and Container Workflows,Module 5 of Docker and Container Workflows.,5,2026-10-19 12:00:00.000000,2026-10-20 12:00:00.000000
+141,29,Foundations: CI/CD Fundamentals,Module 1 of CI/CD Fundamentals.,1,2026-10-20 12:00:00.000000,2026-10-20 12:00:00.000000
+142,29,Core concepts: CI/CD Fundamentals,Module 2 of CI/CD Fundamentals.,2,2026-10-20 12:00:00.000000,2026-10-20 12:00:00.000000
+143,29,Guided practice: CI/CD Fundamentals,Module 3 of CI/CD Fundamentals.,3,2026-10-20 12:00:00.000000,2026-10-20 12:00:00.000000
+144,29,Applied project: CI/CD Fundamentals,Module 4 of CI/CD Fundamentals.,4,2026-10-20 12:00:00.000000,2026-10-20 12:00:00.000000
+145,29,Review and next steps: CI/CD Fundamentals,Module 5 of CI/CD Fundamentals.,5,2026-10-20 12:00:00.000000,2026-10-20 12:00:00.000000
+146,30,Foundations: Git and Collaborative Development,Module 1 of Git and Collaborative Development.,1,2026-10-21 12:00:00.000000,2026-10-20 12:00:00.000000
+147,30,Core concepts: Git and Collaborative Development,Module 2 of Git and Collaborative Development.,2,2026-10-21 12:00:00.000000,2026-10-20 12:00:00.000000
+148,30,Guided practice: Git and Collaborative Development,Module 3 of Git and Collaborative Development.,3,2026-10-21 12:00:00.000000,2026-10-20 12:00:00.000000
+149,30,Applied project: Git and Collaborative Development,Module 4 of Git and Collaborative Development.,4,2026-10-21 12:00:00.000000,2026-10-20 12:00:00.000000
+150,30,Review and next steps: Git and Collaborative Development,Module 5 of Git and Collaborative Development.,5,2026-10-21 12:00:00.000000,2026-10-20 12:00:00.000000

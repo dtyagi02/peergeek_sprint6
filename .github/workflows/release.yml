@@ -1,0 +1,104 @@
+name: Release & Verification Pipeline
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  frontend-verification:
+    name: Frontend Verification & Build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "24.11.1"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Code Quality & Linting
+        run: npm run lint
+
+      - name: Format Check
+        run: npm run format:check
+
+      - name: Dependency Vulnerability Audit
+        run: npm audit --audit-level=high
+
+      - name: Unit & Component Tests
+        run: npm run test
+
+      - name: Production Bundle Build
+        run: npm run build
+
+  backend-verification:
+    name: Backend Tests & Security Checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Setup Java 21
+        uses: actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165 # v4.7.1
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+          cache-dependency-path: backend/pom.xml
+
+      - name: Install System Dependencies (ffmpeg & ffprobe)
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes ffmpeg
+          ffprobe -version
+
+      - name: Verify Docker for Testcontainers
+        run: docker info
+
+      - name: Backend Test Suite & Security Matrix
+        run: bash ./mvnw -B -Dpeergeek.require-docker=true verify
+        working-directory: backend
+
+  docker-images:
+    name: Production Docker Build & Health Verification
+    needs: [frontend-verification, backend-verification]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Frontend Production Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./frontend
+          target: production
+          tags: peergeek-frontend:latest
+          push: false
+          load: true
+
+      - name: Build Backend Production Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./backend
+          target: runtime
+          tags: peergeek-backend:latest
+          push: false
+          load: true

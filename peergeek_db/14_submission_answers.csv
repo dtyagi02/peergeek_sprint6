@@ -1,0 +1,256 @@
+﻿id,submission_id,question_id,answer_text,selected_option_ids,auto_points,points,feedback,updated_at
+1,1,6,,"[""A""]",,,,2026-10-20 12:00:00
+2,1,7,,"[""A""]",,,,2026-10-20 12:00:00
+3,1,8,,"[""A""]",,,,2026-10-20 12:00:00
+4,1,9,,"[""A""]",,,,2026-10-20 12:00:00
+5,1,10,Sample answer to question 5.,[],,,,2026-10-20 12:00:00
+6,3,51,,,,,,2026-10-16 12:00:00
+7,3,52,,,,,,2026-10-16 12:00:00
+8,3,53,,,,,,2026-10-16 12:00:00
+9,3,54,,,,,,2026-10-16 12:00:00
+10,3,55,Sample answer to question 5.,,,,,2026-10-16 12:00:00
+11,6,21,,,,,,2026-10-20 12:00:00
+12,6,22,,,,,,2026-10-20 12:00:00
+13,6,23,,,,,,2026-10-20 12:00:00
+14,6,24,,,,,,2026-10-20 12:00:00
+15,6,25,Sample answer to question 5.,,,,,2026-10-20 12:00:00
+16,8,26,,"[""A""]",,,,2026-10-17 12:00:00
+17,8,27,,"[""A""]",,,,2026-10-17 12:00:00
+18,8,28,,"[""A""]",,,,2026-10-17 12:00:00
+19,8,29,,"[""A""]",,,,2026-10-17 12:00:00
+20,8,30,Sample answer to question 5.,[],,,,2026-10-17 12:00:00
+21,9,36,,"[""A""]",,,,2026-10-16 12:00:00
+22,9,37,,"[""A""]",,,,2026-10-16 12:00:00
+23,9,38,,"[""A""]",,,,2026-10-16 12:00:00
+24,9,39,,"[""A""]",,,,2026-10-16 12:00:00
+25,9,40,Sample answer to question 5.,[],,,,2026-10-16 12:00:00
+26,10,51,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+27,10,52,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+28,10,53,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+29,10,54,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+30,10,55,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+31,12,61,,,,,,2026-10-18 12:00:00
+32,12,62,,,,,,2026-10-18 12:00:00
+33,12,63,,,,,,2026-10-18 12:00:00
+34,12,64,,,,,,2026-10-18 12:00:00
+35,12,65,Sample answer to question 5.,,,,,2026-10-18 12:00:00
+36,14,146,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+37,14,147,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+38,14,148,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+39,14,149,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+40,14,150,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+41,15,16,,"[""A""]",,,,2026-10-13 12:00:00
+42,15,17,,"[""A""]",,,,2026-10-13 12:00:00
+43,15,18,,"[""A""]",,,,2026-10-13 12:00:00
+44,15,19,,"[""A""]",,,,2026-10-13 12:00:00
+45,15,20,Sample answer to question 5.,[],,,,2026-10-13 12:00:00
+46,17,26,,,,,,2026-10-18 12:00:00
+47,17,27,,,,,,2026-10-18 12:00:00
+48,17,28,,,,,,2026-10-18 12:00:00
+49,17,29,,,,,,2026-10-18 12:00:00
+50,17,30,Sample answer to question 5.,,,,,2026-10-18 12:00:00
+51,19,86,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+52,19,87,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+53,19,88,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+54,19,89,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+55,19,90,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+56,20,96,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+57,20,97,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+58,20,98,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+59,20,99,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+60,20,100,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+61,22,106,,,,,,2026-10-19 12:00:00
+62,22,107,,,,,,2026-10-19 12:00:00
+63,22,108,,,,,,2026-10-19 12:00:00
+64,22,109,,,,,,2026-10-19 12:00:00
+65,22,110,Sample answer to question 5.,,,,,2026-10-19 12:00:00
+66,24,131,,,,,,2026-10-13 12:00:00
+67,24,132,,,,,,2026-10-13 12:00:00
+68,24,133,,,,,,2026-10-13 12:00:00
+69,24,134,,,,,,2026-10-13 12:00:00
+70,24,135,Sample answer to question 5.,,,,,2026-10-13 12:00:00
+71,25,6,,"[""A""]",,,,2026-10-16 12:00:00
+72,25,7,,"[""A""]",,,,2026-10-16 12:00:00
+73,25,8,,"[""A""]",,,,2026-10-16 12:00:00
+74,25,9,,"[""A""]",,,,2026-10-16 12:00:00
+75,25,10,Sample answer to question 5.,[],,,,2026-10-16 12:00:00
+76,26,116,,"[""A""]",,,,2026-10-19 12:00:00
+77,26,117,,"[""A""]",,,,2026-10-19 12:00:00
+78,26,118,,"[""A""]",,,,2026-10-19 12:00:00
+79,26,119,,"[""A""]",,,,2026-10-19 12:00:00
+80,26,120,Sample answer to question 5.,[],,,,2026-10-19 12:00:00
+81,27,126,,"[""A""]",,,,2026-10-15 12:00:00
+82,27,127,,"[""A""]",,,,2026-10-15 12:00:00
+83,27,128,,"[""A""]",,,,2026-10-15 12:00:00
+84,27,129,,"[""A""]",,,,2026-10-15 12:00:00
+85,27,130,Sample answer to question 5.,[],,,,2026-10-15 12:00:00
+86,29,21,,"[""A""]",,,,2026-10-16 12:00:00
+87,29,22,,"[""A""]",,,,2026-10-16 12:00:00
+88,29,23,,"[""A""]",,,,2026-10-16 12:00:00
+89,29,24,,"[""A""]",,,,2026-10-16 12:00:00
+90,29,25,Sample answer to question 5.,[],,,,2026-10-16 12:00:00
+91,31,81,,,,,,2026-10-14 12:00:00
+92,31,82,,,,,,2026-10-14 12:00:00
+93,31,83,,,,,,2026-10-14 12:00:00
+94,31,84,,,,,,2026-10-14 12:00:00
+95,31,85,Sample answer to question 5.,,,,,2026-10-14 12:00:00
+96,33,6,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+97,33,7,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+98,33,8,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+99,33,9,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+100,33,10,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+101,35,86,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+102,35,87,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+103,35,88,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+104,35,89,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+105,35,90,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+106,36,91,,,,,,2026-10-18 12:00:00
+107,36,92,,,,,,2026-10-18 12:00:00
+108,36,93,,,,,,2026-10-18 12:00:00
+109,36,94,,,,,,2026-10-18 12:00:00
+110,36,95,Sample answer to question 5.,,,,,2026-10-18 12:00:00
+111,38,101,,,,,,2026-10-19 12:00:00
+112,38,102,,,,,,2026-10-19 12:00:00
+113,38,103,,,,,,2026-10-19 12:00:00
+114,38,104,,,,,,2026-10-19 12:00:00
+115,38,105,Sample answer to question 5.,,,,,2026-10-19 12:00:00
+116,39,26,,,,,,2026-10-18 12:00:00
+117,39,27,,,,,,2026-10-18 12:00:00
+118,39,28,,,,,,2026-10-18 12:00:00
+119,39,29,,,,,,2026-10-18 12:00:00
+120,39,30,Sample answer to question 5.,,,,,2026-10-18 12:00:00
+121,40,81,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+122,40,82,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+123,40,83,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+124,40,84,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+125,40,85,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+126,42,96,,,,,,2026-10-14 12:00:00
+127,42,97,,,,,,2026-10-14 12:00:00
+128,42,98,,,,,,2026-10-14 12:00:00
+129,42,99,,,,,,2026-10-14 12:00:00
+130,42,100,Sample answer to question 5.,,,,,2026-10-14 12:00:00
+131,45,146,,,,,,2026-10-16 12:00:00
+132,45,147,,,,,,2026-10-16 12:00:00
+133,45,148,,,,,,2026-10-16 12:00:00
+134,45,149,,,,,,2026-10-16 12:00:00
+135,45,150,Sample answer to question 5.,,,,,2026-10-16 12:00:00
+136,46,16,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+137,46,17,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+138,46,18,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+139,46,19,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+140,46,20,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+141,48,66,,"[""A""]",,,,2026-10-17 12:00:00
+142,48,67,,"[""A""]",,,,2026-10-17 12:00:00
+143,48,68,,"[""A""]",,,,2026-10-17 12:00:00
+144,48,69,,"[""A""]",,,,2026-10-17 12:00:00
+145,48,70,Sample answer to question 5.,[],,,,2026-10-17 12:00:00
+146,50,86,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+147,50,87,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+148,50,88,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+149,50,89,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+150,50,90,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+151,51,111,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+152,51,112,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+153,51,113,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+154,51,114,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+155,51,115,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+156,53,146,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+157,53,147,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+158,53,148,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+159,53,149,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+160,53,150,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+161,54,11,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+162,54,12,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+163,54,13,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+164,54,14,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+165,54,15,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+166,55,56,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+167,55,57,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+168,55,58,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+169,55,59,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+170,55,60,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+171,56,121,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+172,56,122,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+173,56,123,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+174,56,124,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+175,56,125,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+176,58,136,,,,,,2026-10-16 12:00:00
+177,58,137,,,,,,2026-10-16 12:00:00
+178,58,138,,,,,,2026-10-16 12:00:00
+179,58,139,,,,,,2026-10-16 12:00:00
+180,58,140,Sample answer to question 5.,,,,,2026-10-16 12:00:00
+181,60,66,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+182,60,67,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+183,60,68,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+184,60,69,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+185,60,70,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+186,61,91,,"[""A""]",,,,2026-10-14 12:00:00
+187,61,92,,"[""A""]",,,,2026-10-14 12:00:00
+188,61,93,,"[""A""]",,,,2026-10-14 12:00:00
+189,61,94,,"[""A""]",,,,2026-10-14 12:00:00
+190,61,95,Sample answer to question 5.,[],,,,2026-10-14 12:00:00
+191,63,96,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+192,63,97,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+193,63,98,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+194,63,99,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+195,63,100,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+196,65,126,,"[""A""]",,,,2026-10-20 12:00:00
+197,65,127,,"[""A""]",,,,2026-10-20 12:00:00
+198,65,128,,"[""A""]",,,,2026-10-20 12:00:00
+199,65,129,,"[""A""]",,,,2026-10-20 12:00:00
+200,65,130,Sample answer to question 5.,[],,,,2026-10-20 12:00:00
+201,66,11,,,,,,2026-10-19 12:00:00
+202,66,12,,,,,,2026-10-19 12:00:00
+203,66,13,,,,,,2026-10-19 12:00:00
+204,66,14,,,,,,2026-10-19 12:00:00
+205,66,15,Sample answer to question 5.,,,,,2026-10-19 12:00:00
+206,67,21,,"[""A""]",,,,2026-10-16 12:00:00
+207,67,22,,"[""A""]",,,,2026-10-16 12:00:00
+208,67,23,,"[""A""]",,,,2026-10-16 12:00:00
+209,67,24,,"[""A""]",,,,2026-10-16 12:00:00
+210,67,25,Sample answer to question 5.,[],,,,2026-10-16 12:00:00
+211,68,51,,"[""A""]",,,,2026-10-16 12:00:00
+212,68,52,,"[""A""]",,,,2026-10-16 12:00:00
+213,68,53,,"[""A""]",,,,2026-10-16 12:00:00
+214,68,54,,"[""A""]",,,,2026-10-16 12:00:00
+215,68,55,Sample answer to question 5.,[],,,,2026-10-16 12:00:00
+216,69,141,,"[""A""]",,,,2026-10-15 12:00:00
+217,69,142,,"[""A""]",,,,2026-10-15 12:00:00
+218,69,143,,"[""A""]",,,,2026-10-15 12:00:00
+219,69,144,,"[""A""]",,,,2026-10-15 12:00:00
+220,69,145,Sample answer to question 5.,[],,,,2026-10-15 12:00:00
+221,71,31,,"[""A""]",,,,2026-10-20 12:00:00
+222,71,32,,"[""A""]",,,,2026-10-20 12:00:00
+223,71,33,,"[""A""]",,,,2026-10-20 12:00:00
+224,71,34,,"[""A""]",,,,2026-10-20 12:00:00
+225,71,35,Sample answer to question 5.,[],,,,2026-10-20 12:00:00
+226,72,16,,"[""A""]",,,,2026-10-17 12:00:00
+227,72,17,,"[""A""]",,,,2026-10-17 12:00:00
+228,72,18,,"[""A""]",,,,2026-10-17 12:00:00
+229,72,19,,"[""A""]",,,,2026-10-17 12:00:00
+230,72,20,Sample answer to question 5.,[],,,,2026-10-17 12:00:00
+231,74,46,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+232,74,47,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+233,74,48,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+234,74,49,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+235,74,50,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+236,77,121,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+237,77,122,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+238,77,123,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+239,77,124,,"[""A""]",16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+240,77,125,Sample answer to question 5.,[],16.0,16.0,Review the lesson explanation for this concept.,2026-10-20 12:00:00
+241,79,51,,"[""A""]",,,,2026-10-19 12:00:00
+242,79,52,,"[""A""]",,,,2026-10-19 12:00:00
+243,79,53,,"[""A""]",,,,2026-10-19 12:00:00
+244,79,54,,"[""A""]",,,,2026-10-19 12:00:00
+245,79,55,Sample answer to question 5.,[],,,,2026-10-19 12:00:00
+246,80,76,,,,,,2026-10-14 12:00:00
+247,80,77,,,,,,2026-10-14 12:00:00
+248,80,78,,,,,,2026-10-14 12:00:00
+249,80,79,,,,,,2026-10-14 12:00:00
+250,80,80,Sample answer to question 5.,,,,,2026-10-14 12:00:00
+251,82,146,,"[""A""]",,,,2026-10-15 12:00:00
+252,82,147,,"[""A""]",,,,2026-10-15 12:00:00
+253,82,148,,"[""A""]",,,,2026-10-15 12:00:00
+254,82,149,,"[""A""]",,,,2026-10-15 12:00:00
+255,82,150,Sample answer to question 5.,[],,,,2026-10-15 12:00:00

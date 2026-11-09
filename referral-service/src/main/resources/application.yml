@@ -1,0 +1,54 @@
+server:
+  port: ${SERVER_PORT:8093}
+
+spring:
+  application:
+    name: referral-service
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${MYSQL_DATABASE:peergeek_referral}?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&connectionTimeZone=UTC&forceConnectionTimeZoneToSession=true
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_PASSWORD:achintyaC%02}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      idle-timeout: 30000
+      pool-name: HikariPool-Referral
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: false
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    baseline-version: "0"
+    locations: classpath:db/migration
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+
+peergeek:
+  auth:
+    jwt-secret: ${PEERGEEK_AUTH_JWTSECRET:development-only-peergeek-jwt-secret-replace-before-production}
+  gateway:
+    shared-secret: ${PEERGEEK_GATEWAY_SHARED_SECRET:pg-internal-gateway-secret-2026}
+  services:
+    wallet-url: ${WALLET_SERVICE_URL:http://peergeek-wallet-payment-test:8088}
+    notification-url: ${NOTIFICATION_SERVICE_URL:http://peergeek-notification-test:8087}
+    identity-url: ${IDENTITY_SERVICE_URL:http://peergeek-identity-test:8091}
+  referral:
+    inviter-reward: 100.00
+    new-user-reward: 50.00
+    expiry-days: 7
+    max-invitations-per-day: 10
+    base-url: ${APP_BASE_URL:http://localhost:5173}
+

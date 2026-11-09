@@ -1,0 +1,72 @@
+server:
+  port: ${SERVER_PORT:8087}
+
+spring:
+  application:
+    name: notification-service
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${MYSQL_DATABASE:peergeek_notification}?createDatabaseIfNotExist=true&connectionTimeZone=UTC&forceConnectionTimeZoneToSession=true
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_PASSWORD:achintyaC%02}
+    hikari:
+      connection-init-sql: SET time_zone = '+00:00'
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+    open-in-view: false
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    consumer:
+      group-id: notification-service-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+    listener:
+      missing-topics-fatal: false
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: ${RABBITMQ_PORT:5672}
+    username: ${RABBITMQ_USER:peergeek_dev}
+    password: ${RABBITMQ_PASS:peergeek_pass}
+    listener:
+      simple:
+        acknowledge-mode: manual
+        prefetch: 10
+  mail:
+    host: ${SPRING_MAIL_HOST:localhost}
+    port: ${SPRING_MAIL_PORT:1025}
+    properties:
+      mail:
+        smtp:
+          auth: false
+
+peergeek:
+  auth:
+    jwt-secret: ${PEERGEEK_AUTH_JWTSECRET:replace-with-a-local-only-secret-at-least-32-bytes}
+  mail:
+    from: ${PEERGEEK_MAIL_FROM:no-reply@peergeek.local}
+  migration:
+    monolith-db: ${MONOLITH_DATABASE:peergeek}
+    auto-migrate-historical-data: ${AUTO_MIGRATE_NOTIFICATIONS:true}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
+      probes:
+        enabled: true
+

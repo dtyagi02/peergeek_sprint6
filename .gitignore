@@ -1,0 +1,19 @@
+.env
+.idea/
+.run/
+.vscode/
+**/target/
+**/node_modules/
+**/dist/
+**/.DS_Store
+*.log
+
+# Local archives and duplicate service
+*.zip
+wallet-payment-service - Copy/
+
+
+# Local database backups and scratch scripts
+backup/
+scratch/
+
