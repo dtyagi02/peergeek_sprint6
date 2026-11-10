@@ -2,7 +2,10 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vitest/config";
 
-const backendTarget = process.env.VITE_GATEWAY_URL || "http://localhost:8080";
+const backendTarget =
+  process.env.VITE_GATEWAY_URL ||
+  process.env.VITE_API_BASE_URL ||
+  "http://localhost:8081";
 
 // https://vite.dev/config/
 export default defineConfig({

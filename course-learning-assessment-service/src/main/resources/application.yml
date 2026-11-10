@@ -5,7 +5,7 @@ spring:
   application:
     name: course-learning-assessment-service
   datasource:
-    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${MYSQL_DATABASE:peergeek_learning}?createDatabaseIfNotExist=true&connectionTimeZone=UTC&forceConnectionTimeZoneToSession=true
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${LEARNING_MYSQL_DATABASE:${MYSQL_DATABASE:peergeek_learning}}?createDatabaseIfNotExist=true&connectionTimeZone=UTC&forceConnectionTimeZoneToSession=true
     username: ${MYSQL_USER:root}
     password: ${MYSQL_PASSWORD:achintyaC%02}
     driver-class-name: com.mysql.cj.jdbc.Driver

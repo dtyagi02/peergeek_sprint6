@@ -27,6 +27,8 @@ spring:
             allowed-headers: "*"
             allow-credentials: true
             max-age: 3600
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Credentials, RETAIN_FIRST
       routes:
         - id: notification-service
           uri: ${NOTIFICATION_SERVICE_URL:http://peergeek-notification-test:8087}
